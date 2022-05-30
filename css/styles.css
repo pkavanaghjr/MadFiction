@@ -1,0 +1,122 @@
+html, body{
+
+}
+
+#container1{
+	width:50%;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.clear{
+	clear:both;
+}
+
+.fadeOne, .fadeTwo, .fadeThree, .fadeFour, .fadeFive, {
+	visibility:hidden;
+	opacity:0;
+}
+
+.navFadeOne, .navFadeTwo, .navFadeThree{
+	visibility:hidden;
+	opacity:0;
+}
+
+/* ////////////// TITLE PAGE //////////////// */
+#titlePage h1{
+	padding-top:20%;
+	font-size:50px;
+	color:#6c7277;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:5px;
+	visibility:hidden;
+	opacity:0;
+}
+
+#titlePage h2{
+	font-size:18px;
+	color:#6c7277;
+	text-align:center;
+	margin-bottom:60px;
+	visibility:hidden;
+	opacity:0;
+}
+
+#titleForm input{
+	text-align:center;
+	color:#fff;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	font-size:21px;
+	width:50%;
+	height:75px;	
+	background-color:#6c7277;
+	display:block;	
+	margin-left:auto;
+	margin-right:auto;	
+	margin-bottom:20px;
+	box-shadow:none;
+	border:1px #6c7277 solid;	
+	opacity:0;
+	visibility:hidden;	
+	transition:border-color 1s;
+	-o-transition:border-color 1s;
+	-moz-transition:border-color 1s;
+	-webkit-transition:border-color 1s;	
+}
+
+#titleForm .hasFocus{
+	border:5px #000 solid;
+	transition:border-color 1s;
+	-o-transition:border-color 1s;
+	-moz-transition:border-color 1s;
+	-webkit-transition:border-color 1s;	
+}
+
+#titleForm input[type="submit"]{
+	width:25%;
+	height:50px;
+	color:#fff;
+	font-size:16px;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	background-color:#6c7277;
+	border: none;
+	margin-right: auto;
+	margin-left:auto;
+	display: block;
+	visibility:hidden;
+	opacity:0;
+	transition:background-color .5s;
+	-o-transition:background-color .5s;
+	-moz-transition:background-color .5s;
+	-webkit-transition:background-color .5s;	
+}
+
+#titleForm input[type="submit"]:hover{
+	background-color:rgba(108,114,119,.5);
+	transition:background-color 1s;
+	-o-transition:background-color 1s;
+	-moz-transition:background-color 1s;
+	-webkit-transition:background-color 1s;
+}
+
+#titlePage h3{
+	font-size:14px;
+	color:#6c7277;
+	text-align:center;
+	line-height: 10vh;
+}
+
+#copyright{
+	padding-top:30px;
+	background-color:#fff;		
+}
+
+#copyright p{
+	font-size:10px;
+	text-align:center;
+	line-height:14px;	
+	color:#6c7277;
+	visibility:hidden;
+	opacity:0;
+}

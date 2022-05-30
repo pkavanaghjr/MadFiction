@@ -1,0 +1,364 @@
+html, body{
+
+}
+
+.container{
+	width:978px;
+	margin-right:auto;
+	margin-left:auto;
+	z-index: 2;	
+}
+
+.clear{
+	clear:both;
+}
+
+#story1 h1, #storyFinal h1{
+	color:#6c7277;
+	text-align: center;
+	font-size: 24px;
+	padding-top:5%;
+	margin-bottom:1%;
+	opacity: 0;
+}
+
+#story1 h2, #storyFinal h2{
+	color:#6c7277;
+	text-align: center;
+	font-size: 21px;
+	margin-bottom:5%;
+	opacity: 0;
+}
+
+#story1 h3{
+	color:#6c7277;
+	text-align: center;
+	font-size: 38px;
+	line-height: 45px;
+	border-bottom: 2px solid;
+	margin-bottom:5%;
+	opacity: 0;
+}
+
+#story2 h3,#story3 h3,#story4 h3, #storyFinal h3{
+	color:#6c7277;
+	text-align: center;
+	font-size: 38px;
+	line-height: 45px;
+	border-bottom: 2px solid;
+	margin-bottom:5%;
+	padding-top:5%;
+	opacity: 0;
+}
+
+#story1 em,#story2 em,#story3 em,#story4 em{
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 50px;
+	color:#888;
+}
+
+
+#story1 p,#story2 p,#story3 p,#story4 p, #storyFinal p{
+	color:#6c7277;
+	font-size: 30px;
+	line-height: 50px;
+	margin-bottom:20px;
+	opacity: 0;
+}
+
+.backImage{
+	width:100%;
+	position: fixed;
+	bottom:-5px;
+	z-index: 1;
+	opacity: 0;
+	pointer-events:none;
+}
+
+/*=================== STORY 1 ===================*/
+#storyOneForm{
+	width:88%;
+	margin-left: auto;
+	margin-right:auto;
+	z-index: 2;
+}
+
+#storyOneForm input[type="text"]{
+	color:#a12210;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	font-size:21px;
+	border:none;
+	border-bottom: 2px #a12210 solid;	
+	box-shadow:none;	
+	opacity: 0;
+	z-index: 2;	
+	transition:border-color 1s;
+	-o-transition:border-color 1s;
+	-moz-transition:border-color 1s;
+	-webkit-transition:border-color 1s;	
+}
+
+#storyOneForm input[type="submit"]{
+	width:25%;
+	height:5vh;
+	color:#fff;
+	font-size:16px;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	background-color:#a12210;
+	border: none;
+	float: right;
+	margin-top:3%;
+	margin-bottom: 7%;
+	cursor: pointer;
+	display: block;
+	opacity: 0;
+	z-index: 2;
+	transition:background-color .5s;
+	-o-transition:background-color .5s;
+	-moz-transition:background-color .5s;
+	-webkit-transition:background-color .5s;	
+}
+
+#storyOneForm input[type="submit"]:hover{
+	background-color:rgba(161,34,16,.5);
+	transition:background-color 1s;
+	-o-transition:background-color 1s;
+	-moz-transition:background-color 1s;
+	-webkit-transition:background-color 1s;
+}
+
+
+/*=================== STORY 2 ===================*/
+#story2 span{
+	color:#a12210;
+	opacity: 0;
+}
+
+#storyTwoForm{
+	width:88%;
+	margin-left: auto;
+	margin-right:auto;
+	z-index: 2;
+}
+
+#storyTwoForm input[type="text"]{
+	color:#b684cc;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	font-size:21px;
+	border:none;
+	border-bottom: 2px #b684cc solid;	
+	box-shadow:none;	
+	opacity: 0;
+	transition:border-color 1s;
+	-o-transition:border-color 1s;
+	-moz-transition:border-color 1s;
+	-webkit-transition:border-color 1s;	
+}
+
+#storyTwoForm input[type="submit"]{
+	width:25%;
+	height:5vh;
+	color:#fff;
+	font-size:16px;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	background-color:#b684cc;
+	border: none;
+	float: right;
+	margin-top:3%;
+	margin-bottom: 7%;
+	cursor: pointer;
+	display: block;
+	opacity: 0;
+	transition:background-color .5s;
+	-o-transition:background-color .5s;
+	-moz-transition:background-color .5s;
+	-webkit-transition:background-color .5s;	
+}
+
+#storyTwoForm input[type="submit"]:hover{
+	background-color:rgba(182,132,204,.5);
+	transition:background-color 1s;
+	-o-transition:background-color 1s;
+	-moz-transition:background-color 1s;
+	-webkit-transition:background-color 1s;
+}
+
+
+/*=================== STORY 3 ===================*/
+#story3 span{
+	color:#8d6da9;
+	opacity: 0;
+}
+
+#storyThreeForm{
+	width:88%;
+	margin-left: auto;
+	margin-right:auto;
+	z-index: 2;
+}
+
+#storyThreeForm input[type="text"]{
+	color:#e67a3e;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	font-size:21px;
+	border:none;
+	border-bottom: 2px #e67a3e solid;	
+	box-shadow:none;	
+	opacity: 0;
+	transition:border-color 1s;
+	-o-transition:border-color 1s;
+	-moz-transition:border-color 1s;
+	-webkit-transition:border-color 1s;	
+}
+
+#storyThreeForm input[type="submit"]{
+	width:25%;
+	height:5vh;
+	color:#fff;
+	font-size:16px;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	background-color:#e67a3e;
+	border: none;
+	float: right;
+	margin-top:3%;
+	margin-bottom: 7%;
+	cursor: pointer;
+	display: block;
+	opacity: 0;
+	transition:background-color .5s;
+	-o-transition:background-color .5s;
+	-moz-transition:background-color .5s;
+	-webkit-transition:background-color .5s;	
+}
+
+#storyThreeForm input[type="submit"]:hover{
+	background-color:rgba(230,122,62,.5);
+	transition:background-color 1s;
+	-o-transition:background-color 1s;
+	-moz-transition:background-color 1s;
+	-webkit-transition:background-color 1s;
+}
+
+
+
+/*=================== STORY 4 ===================*/
+#story4 span{
+	color:#e67a3e;
+	opacity: 0;
+}
+
+.hugoImage{
+	width:100%;
+	position: fixed;
+	bottom:-35%;
+	z-index: 1;
+	opacity: 0;
+	pointer-events:none;
+}
+
+#storyFourForm{
+	width:88%;
+	margin-left: auto;
+	margin-right:auto;
+	z-index: 2;
+}
+
+#storyFourForm input[type="text"]{
+	color:#618cae;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	font-size:21px;
+	border:none;
+	border-bottom: 2px #618cae solid;	
+	box-shadow:none;	
+	opacity: 0;
+	transition:border-color 1s;
+	-o-transition:border-color 1s;
+	-moz-transition:border-color 1s;
+	-webkit-transition:border-color 1s;	
+}
+
+#storyFourForm input[type="submit"]{
+	width:25%;
+	height:5vh;
+	color:#fff;
+	font-size:16px;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	background-color:rgba(97,140,174,1);
+	border: none;
+	float: right;
+	margin-top:3%;
+	margin-bottom: 7%;
+	cursor: pointer;
+	display: block;
+	opacity: 0;
+	transition:background-color .5s;
+	-o-transition:background-color .5s;
+	-moz-transition:background-color .5s;
+	-webkit-transition:background-color .5s;	
+}
+
+#storyFourForm input[type="submit"]:hover{
+	background-color:rgba(97,140,174,.5);
+	transition:background-color 1s;
+	-o-transition:background-color 1s;
+	-moz-transition:background-color 1s;
+	-webkit-transition:background-color 1s;
+}
+
+
+/*=================== STORY FINAL ===================*/
+#storyFinal .one{
+	color:#a12210;
+}
+
+#storyFinal .two{
+	color:#b684cc;
+}
+
+#storyFinal .three{
+	color:#e67a3e;
+}
+
+#storyFinal .four{
+	color:#618cae;
+}
+
+#restart{
+	width:25%;
+	height:5vh;
+	color:#fff;
+	font-size:16px;
+	font-family:coreHumanistSans, Helvetica, Arial, sans-serif;
+	line-height: 5vh;
+	text-align: center;		
+	background-color:#6c7277;
+	border: none;
+	float: right;
+	margin-top:3%;
+	margin-bottom: 7%;
+	cursor: pointer;
+	display: block;
+	opacity: 0;
+	transition:background-color .5s;
+	-o-transition:background-color .5s;
+	-moz-transition:background-color .5s;
+	-webkit-transition:background-color .5s;	
+}
+
+#restart:hover{
+	background-color:rgba(108,114,119,.5);
+	transition:background-color 1s;
+	-o-transition:background-color 1s;
+	-moz-transition:background-color 1s;
+	-webkit-transition:background-color 1s;
+}
+
+.back1{
+	opacity: 0;
+}
+
+.back2, .back3, .back4{
+	opacity: 0;
+}
+
